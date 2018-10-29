@@ -10,12 +10,9 @@ public interface ICalc {
 	 * @param param1
 	 * @param param2
 	 * @return
-	 */
-	
+	 */	
 	public double addition(double param1, double param2);
 
-	
-	
 	/**
 	 * 
 	 * @param param1
@@ -31,14 +28,16 @@ public interface ICalc {
 	 * @return
 	 */
 	
-	//public double addition(double[] param);
+	/*public double addition(double[] param);
+	*/  // remove comments here as well as in Calc.java to use calculation by arrays. 
 	
 	/**
 	 * 
 	 * @param params
 	 * @return
 	 */
-	public double addition(double... param);
+	public double addition(double ... param);
+	
 	/**
 	 * Description:
 	 * 
@@ -47,8 +46,6 @@ public interface ICalc {
 	 * @return
 	 * 
 	 */
-
-	
 	public double subtract(double param1, double param2);
 
 	/**
@@ -59,7 +56,6 @@ public interface ICalc {
 	 * @return
 	 * 
 	 */
-
 	public double multiply(double param1, double param2);
 
 	/**
@@ -70,7 +66,6 @@ public interface ICalc {
 	 * @return
 	 * 
 	 */
-
 	public double division(double param1, double param2);
 	
 	
